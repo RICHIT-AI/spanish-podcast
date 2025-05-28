@@ -2,7 +2,7 @@
 
 Este script genera un podcast simulado con múltiples voces en español utilizando **Google Cloud Text-to-Speech**. Lee los diálogos desde un archivo CSV y produce un único archivo `.mp3` que concatena todos los segmentos generados.
 🔊 **Escucha un ejemplo generado con este script**:
-[Podcast de ejemplo en Google Drive](https://drive.google.com/file/d/1KLRcNGkuw-OPAG5UCCMyvnqFBbcGAvRJ/view?usp=sharing)
+[Podcast de ejemplo en Google Drive](https://drive.google.com/file/d/1EgzgUO3jOpybqihNZ6Ob7JaJyODrJ12x/view?usp=sharing)
 
 
 ---
