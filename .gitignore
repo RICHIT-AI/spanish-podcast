@@ -1,0 +1,34 @@
+i# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+pip-log.txt
+pip-delete-this-arg.txt
+
+# Django specific
+*.log
+*.pot
+*.mo
+*.sqlite3
+db.sqlite3
+/media/ # ¡IGNORAR ESTO ES CRUCIAL! Contendrá tus CSVs subidos y audios generados
+/static_collected/ # Si usas collectstatic en producción
+
+# IDEs and other tools
+.idea/ # PyCharm
+.vscode/ # VS Code
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Google Cloud specific (from your project)
+credentials.json # ¡MUY IMPORTANTE! NO SUBAS TUS CREDENCIALES
+output_segments/ # Directorio temporal de tu script de generación de audio
+podcast_final_*.mp3 # Tu script generaba archivos con este prefijo.
+temp_speaker_audio_*.mp3 # Archivos temporales de segmentos de audio
+temp_csv_uploads/ # Directorio temporal para los CSVs subidos por Django
+temp_audio_segments/ # Directorio temporal para los segmentos de audio de django-allauth
